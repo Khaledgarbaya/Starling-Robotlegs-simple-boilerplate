@@ -1,0 +1,56 @@
+# Public unneccessary files or external libraries #
+###################
+*.png*
+*.jpg*
+*.jpeg*
+*.gif*
+*.tiff*
+*.ico*
+*.ttf*
+*.mov*
+/bin-debug/
+/html-template/
+/libs/
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*_notes
+
+# API generated files #
+######################
+*.project
+*.settings
+*.actionScriptProperties
